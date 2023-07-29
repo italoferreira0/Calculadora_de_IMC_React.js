@@ -1,0 +1,92 @@
+.DivMaster{
+    border-radius: 20px;
+    background-color: gray;
+    height: 30rem;
+    width: 60rem;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(14, 13, 13);
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.title{
+    padding-top: 8px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    text-align: center;
+    background-color: rgb(59, 59, 90);
+    border-radius: 6px;
+    height: 40px;
+}
+
+.Input{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 130px;
+    height: 30px;
+    border-color: rgb(125, 125, 202);
+
+}
+
+.Button{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: rgb(125, 125, 202);
+    margin-top: 60px;
+    border-radius: 20px;
+    width: 110px;
+    height: 40px;
+    color: antiquewhite;
+    
+}
+
+.DivPesoAltura, .DivBotao, .DivResultado, .DivTabela{   
+    height: 15rem;
+    width: 10rem;
+    margin-top: 50px; 
+    display: inline-block;
+}
+
+.DivTabela{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    padding-left: 4px;
+    color: white;
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(92, 88, 88);
+    vertical-align: top;
+    
+}
+  
+.DivPesoAltura {
+    /* background-color: aqua; */
+    margin-left: 5rem;
+    
+    
+}
+  
+#calcular{
+    background-color: rgb(187, 138, 46);
+}
+
+#limpar{
+    background-color: rgb(67, 67, 197);
+}
+
+#resultado{
+    background-color: rgb(187, 138, 46); 
+}
