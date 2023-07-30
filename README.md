@@ -7,10 +7,10 @@
 
 <ul>
   <li>HTML: Utilizei para Estruturar as tags e inserir conteudo na aplicação.</li>
-  <li>CSS: Utilizei para inserir estilo para os componentes.</li>
-  <li>Java Script: Utilizei para realizar a lógica da aplicação, rezanlizando calculos, chamando funções e alterando os conteudos estáticos.</li>
-  <li>React: Utilizei na crieção de compontente e na estruturação da aplicação, e na alteração de estado dos compontentes.</li>
-  <li>BootStrap: Utilizei para deixar a página responsiva, melhorando a experiência do usuário, sendo possivel acessar no desktop ou em dispositivos mobile.</li> 
+  <li>CSS: Utilizei para inserir estilo nos componentes.</li>
+  <li>Java Script: Utilizei para realizar a lógica da aplicação, realizando calculos, chamando funções e alterando os conteudos estáticos.</li>
+  <li>React: Utilizei na criação de compontentes,na estruturação da aplicação, e na alteração de estado dos compontentes.</li>
+  <li>BootStrap: Utilizei para deixar a página responsiva, melhorando a experiência do usuário, sendo possível acessar no desktop ou em dispositívos mobile.</li> 
 </ul><br/>
 
 <h1>Desktop / Mobile</h1>
