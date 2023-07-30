@@ -1,11 +1,10 @@
 .DivMaster{
-    border-radius: 20px;
     background-color: gray;
-    height: 30rem;
-    width: 60rem;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 20px;
+    /* height: 40rem; */
+    /* width: 30rem; */
+    margin-top: 50px;
+    
 }
 
 h3{
@@ -23,7 +22,7 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     color: antiquewhite;
     text-align: center;
-    background-color: rgb(59, 59, 90);
+    /* background-color: rgb(59, 59, 90); */
     border-radius: 6px;
     height: 40px;
 }
@@ -51,33 +50,6 @@ h2{
     
 }
 
-.DivPesoAltura, .DivBotao, .DivResultado, .DivTabela{   
-    height: 15rem;
-    width: 10rem;
-    margin-top: 50px; 
-    display: inline-block;
-}
-
-.DivTabela{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 8px;
-    padding-left: 4px;
-    color: white;
-    height: 20rem;
-    width: 20rem;
-    background-color: rgb(92, 88, 88);
-    vertical-align: top;
-    
-}
-  
-.DivPesoAltura {
-    /* background-color: aqua; */
-    margin-left: 5rem;
-    
-    
-}
   
 #calcular{
     background-color: rgb(187, 138, 46);
@@ -90,3 +62,14 @@ h2{
 #resultado{
     background-color: rgb(187, 138, 46); 
 }
+
+.DivTabela{
+    color: white;
+}
+
+.DivTabela, .DivBotao, .DivResultado, .DivPesoAltura{
+    margin-left: 100px;
+    /* border: solid; */
+
+}
+
