@@ -23,15 +23,15 @@ export default function DivMaster() {
         document.getElementById('magreza').style.color = '#FFFFFF';
 
         if (imcValor < 18.5 && imcValor != 0) {
-            document.getElementById('magreza').style.color = '#F8DF0F';
+            document.getElementById('magreza').style.color = '#000000';
         } else if (imcValor >= 18.5 && imcValor <= 24.9) {
-            document.getElementById('normal').style.color = '#00FF00';
+            document.getElementById('normal').style.color = '#000000';
         } else if (imcValor >= 25.0 && imcValor <= 29.9) {
-            document.getElementById('sobrepeso').style.color = '#FF7F50';
+            document.getElementById('sobrepeso').style.color = '#000000';
         } else if (imcValor >= 30.0 && imcValor <= 39.9) {
-            document.getElementById('obesidade').style.color = '#B03A2E';
+            document.getElementById('obesidade').style.color = '#000000';
         } else if (imcValor >= 40) {
-            document.getElementById('grave').style.color = '#FF0000';
+            document.getElementById('grave').style.color = '#000000';
         }
     }
     
@@ -48,65 +48,55 @@ export default function DivMaster() {
 
     return(
         
-        <div className='container DivMaster w-50'>
+        <div className='DivMaster'>
             <h2 className='title'>Calcular IMC</h2>
             <div class="row ">  
                 
-                <div class="col DivPesoAltura p-5">
+                <div class="col w-25 d-inline-block DivPesoAltura ">
                     <h3>Peso: </h3>
-                    <input type="number" className='Input form-control' placeholder='Quilos' value={peso} 
-                    onChange={event => {setPeso(event.target.value);}}/>
+                    <input type="number" className='Input ' placeholder='Quilos' value={peso} 
+                    onChange={event => {setPeso(event.target.value);}} step="0.01" min="0" max="10"/>
                             
                     <h3>Altura: </h3>
-                    <input type="number" className='Input form-control' placeholder='Metros' value={altura} 
-                    onChange={event => {setAltura(event.target.value);}} />
-                </div>
+                    <input type="number" className='Input' placeholder='Metros' value={altura} 
+                    onChange={event => {setAltura(event.target.value);}} step="0.01" min="0" max="10"/>
 
-                <div class="col DivBotao p-1">
-                    <br />
-                    <div>
-                        <button type="button form-control" className='Button btn ' id='calcular' onClick={calcularImc}><strong>Calular</strong></button>
-                    </div>
-                    <div>
-                        <button type="button form-control" className='Button btn ' id='limpar' onClick={limpar}><strong>Limpar</strong></button>
-                    </div>
-
-                </div>
-                    
-                <div class="col DivResultado p-1">
                     <br /><br />
+                    <div>
                     <h3>SEU IMC:</h3>
                     <input type='number' className='Input' placeholder='Resultado' id='resultado' value={imc} readOnly/>
-
-                </div>
-                
+                    <br />
+                    <button type="button form-control" className='Button btn ' id='calcular' onClick={calcularImc}><strong>Calular</strong></button>            
+                        <button type="button form-control" className='Button btn ' id='limpar' onClick={limpar}><strong>Limpar</strong></button>
+                    </div>
+                    <br />
+                        
+                </div>       
             </div>
-            <div class="col DivTabela p-1">
+            <h3>Indices de </h3>	
+            <span><h3>IMC, Classificação:</h3></span>
+            <div class="w-20 d-inline-block DivTabela ">
                         <table className=''>
-                        <h3 className=''>Indices: </h3>			
-                            <tr>    
-                                <th><h3>IMC</h3></th>
-                                <th><h3>Classificação</h3></th>
-                            </tr>
+                        		
                             <tr className='' id='magreza'  >
-                                <td>Menor que 18,5: </td>
-                                <td>Magreza</td>
+                                <td><strong>Menor que 18,5: </strong></td>
+                                <td><strong>Magreza</strong></td>
                             </tr>
                             <tr id='normal' >
-                                <td>Entre 18,5 e 24,9: </td>
-                                <td>Normal</td>
+                                <td><strong>Entre 18,5 e 24,9: </strong></td>
+                                <td><strong>Normal</strong></td>
                             </tr>
                             <tr id='sobrepeso' >
-                                <td>Entre 25,0 e 29,9: </td>
-                                <td>Sobrepeso</td>
+                                <td><strong>Entre 25,0 e 29,9: </strong></td>
+                                <td><strong>Sobrepeso</strong></td>
                             </tr>
                             <tr id='obesidade' >
-                                <td>Entre 30,0 e 39,9: </td>
-                                <td>Obesidade</td>
+                                <td><strong>Entre 30,0 e 39,9: </strong></td>
+                                <td><strong>Obesidade</strong></td>
                             </tr>
                             <tr id='grave' >
-                                <td>Maior que 40,0: </td>
-                                <td>Obesidade Grave</td>
+                                <td><strong>Maior que 40,0: </strong></td>
+                                <td><strong>Obesidade Grave</strong></td>
                             </tr>
                     
                     </table>
