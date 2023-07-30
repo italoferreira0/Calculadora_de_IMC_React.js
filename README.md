@@ -13,11 +13,9 @@
   <li>BootStrap: Utilizei para deixar a página responsiva, melhorando a experiência do usuário, sendo possivel acessar no desktop ou em dispositivos mobile.</li> 
 </ul><br/>
 
-<h1>Desktop</h1>
-<img width="800" alt="image" src="https://github.com/italoferreira0/Calculadora_de_IMC_React.js/assets/84740878/c82ce96a-b324-47f2-8dbc-6991f3952b83">
-<img width="140" alt="image" src="https://github.com/italoferreira0/Calculadora_de_IMC_React.js/assets/84740878/d6d85cb5-8d7a-4ee2-a9ce-1f6dc96b3211">
-
-<h1>Mobile</h1>
+<h1>Desktop/Mobile</h1>
+<img width="400" alt="image" src="https://github.com/italoferreira0/Calculadora_de_IMC_React.js/assets/84740878/c82ce96a-b324-47f2-8dbc-6991f3952b83">
+<img width="300" alt="image" src="https://github.com/italoferreira0/Calculadora_de_IMC_React.js/assets/84740878/d6d85cb5-8d7a-4ee2-a9ce-1f6dc96b3211">
 
 
 
