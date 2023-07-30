@@ -15,9 +15,9 @@
 
 <h1>Desktop</h1>
 <img width="800" alt="image" src="https://github.com/italoferreira0/Calculadora_de_IMC_React.js/assets/84740878/c82ce96a-b324-47f2-8dbc-6991f3952b83"><br/>
+<img width="140" alt="image" src="https://github.com/italoferreira0/Calculadora_de_IMC_React.js/assets/84740878/d6d85cb5-8d7a-4ee2-a9ce-1f6dc96b3211">
 
 <h1>Mobile</h1>
-![WhatsApp Image 2023-07-30 at 13 41 06](https://github.com/italoferreira0/Calculadora_de_IMC_React.js/assets/84740878/65083792-f40d-47e6-9a6a-d1cdf794078d)
 
 
 
