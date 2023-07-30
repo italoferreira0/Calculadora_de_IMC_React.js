@@ -14,6 +14,7 @@
 </ul><br/>
 
 <h1>Desktop</h1>
+<img width="503" alt="image" src="https://github.com/italoferreira0/Calculadora_de_IMC_React.js/assets/84740878/c82ce96a-b324-47f2-8dbc-6991f3952b83">
 
 
 
