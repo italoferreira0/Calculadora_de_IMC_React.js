@@ -69,8 +69,8 @@ h2{
 }
 
 .DivTabela, .DivBotao, .DivResultado, .DivPesoAltura{
-    border: black solid;
-    border-radius: 10px;
+    /* border: black solid;
+    border-radius: 10px; */
    
 }
 
