@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Calculadora_de_IMC_React.js/static/css/main.640d2919.css",
-    "main.js": "/Calculadora_de_IMC_React.js/static/js/main.8f983880.js",
+    "main.css": "/Calculadora_de_IMC_React.js/static/css/main.0b703aea.css",
+    "main.js": "/Calculadora_de_IMC_React.js/static/js/main.ae66c8a4.js",
     "index.html": "/Calculadora_de_IMC_React.js/index.html",
-    "main.640d2919.css.map": "/Calculadora_de_IMC_React.js/static/css/main.640d2919.css.map",
-    "main.8f983880.js.map": "/Calculadora_de_IMC_React.js/static/js/main.8f983880.js.map"
+    "main.0b703aea.css.map": "/Calculadora_de_IMC_React.js/static/css/main.0b703aea.css.map",
+    "main.ae66c8a4.js.map": "/Calculadora_de_IMC_React.js/static/js/main.ae66c8a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.640d2919.css",
-    "static/js/main.8f983880.js"
+    "static/css/main.0b703aea.css",
+    "static/js/main.ae66c8a4.js"
   ]
 }
